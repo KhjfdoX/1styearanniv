@@ -37,10 +37,10 @@ export default function Header() {
         href='/'
         className='self-center whitespace-nowrap text-sm sm:text-xl font-semibold dark:text-white'
       >
-        <span className='px-2 py-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg text-white'>
-          Sahand&apos;s
+        <span className='px-2 py-1 bg-pink-500 rounded-lg text-white'>
+          kyslolxz
         </span>
-        Blog
+
       </Link>
       <form onSubmit={handleSubmit}>
         <TextInput
@@ -74,7 +74,7 @@ export default function Header() {
         </SignedIn>
         <SignedOut>
           <Link href='/sign-in'>
-            <Button gradientDuoTone='purpleToBlue' outline>
+            <Button gradientDuoTone='blacktoBlue' outline>
               Sign In
             </Button>
           </Link>
@@ -89,12 +89,12 @@ export default function Header() {
         </Link>
         <Link href='/about'>
           <Navbar.Link active={path === '/about'} as={'div'}>
-            About
+            Check Here!
           </Navbar.Link>
         </Link>
         <Link href='/projects'>
           <Navbar.Link active={path === '/projects'} as={'div'}>
-            Projects
+            And Here!
           </Navbar.Link>
         </Link>
       </Navbar.Collapse>

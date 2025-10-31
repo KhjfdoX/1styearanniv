@@ -18,19 +18,11 @@ export default async function Home() {
   return (
     <div className='flex flex-col justify-center items-center'>
       <div className='flex flex-col gap-6 p-28 px-3 max-w-6xl mx-auto '>
-        <h1 className='text-3xl font-bold lg:text-6xl'>Welcome to my Blog</h1>
+        <h1 className='text-3xl font-bold lg:text-6xl drop-shadow-[0_0_10px_#3b82f6] animate-pulse'>Happy 1 Year Anniversary Darling!!!</h1>
         <p className='text-gray-500 text-sm sm:text-base'>
-          Discover a variety of articles and tutorials on topics such as web
-          development, software engineering, and programming languages, all
-          brought to you through a blog built with Next.js and{' '}
-          <a
-            href='https://go.clerk.com/fgJHKlt'
-            className='text-teal-500 hover:underline'
-            target='_blank'
-          >
-            Clerk
-          </a>
-          .
+          Ene websitender ci oruulhig hussen zurag esvel hussen yma post hiij bolno
+          yg ngu kyslolxz acc shg ghde hmagui goy c ymu ahaha medkue ghde
+          hairtaishuu!{' '}
         </p>
         <Link
           href='/search'
