@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-  authDomain: "next-blog-bac5b.firebaseapp.com",
-  projectId: "next-blog-bac5b",
-  storageBucket: "next-blog-bac5b.firebasestorage.app",
-  messagingSenderId: "282459795765",
-  appId: "1:282459795765:web:9392a74d8014b012c2dc7c"
+  apiKey: proccess.env.NEXT_PUBLIC_FIREBASE_API_KEY,
+  authDomain: "styearanni.firebaseapp.com",
+  projectId: "styearanni",
+  storageBucket: "styearanni.firebasestorage.app",
+  messagingSenderId: "693145217607",
+  appId: "1:693145217607:web:f93adbbc6def892af19f62"
 };
 
 // Initialize Firebase
